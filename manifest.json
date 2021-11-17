@@ -1,0 +1,16 @@
+{
+  "name": "Nicos Weg Progress",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Save the progress of Nicos Weg",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
