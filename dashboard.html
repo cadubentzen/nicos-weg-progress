@@ -2,12 +2,19 @@
 <html>
 
 <head>
-  <title>Nikos Weg</title>
+  <title>Nicos Weg Progress</title>
+  <meta charset="utf-8">
 </head>
 
 <body>
-  <p>Yay, Nikos Weg progress!</p>
-  <div id="data"></div>
+  <h2>Yay, Nicos Weg progress!</h2>
+  <form>
+    <label>Goal date for achieving B1:
+      <input type="date" id="goal" value="2022-07-01">
+    </label>
+  </form>
+  <div id="reports"></div>
+  <script src="plotly-2.6.3.min.js"></script>
   <script type="text/javascript" src="dashboard.js"></script>
 </body>
 
